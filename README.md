@@ -23,7 +23,7 @@
 4. [如何学习更有计划性、提升更稳更快？](https://github.com/mqyqingfeng/Blog/issues/308)
 5. [过程比结果重要吗？](https://github.com/mqyqingfeng/Blog/issues/309)
 
-## TypeScript4 官方文档翻译，收录在 [ts.yayujs.com](http://ts.yayujs.com/)
+## TypeScript4 官方文档翻译
 
 1. [TypeScript之基础入门](https://github.com/mqyqingfeng/Blog/issues/227)
 2. [TypeScript之常见类型（上）](https://github.com/mqyqingfeng/Blog/issues/228)

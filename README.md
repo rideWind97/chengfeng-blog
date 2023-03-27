@@ -11,17 +11,15 @@
 3. [React 之 Refs 的使用和 forwardRef 的源码解读](https://github.com/mqyqingfeng/Blog/issues/318)
 4. [React 之 Context 的变迁与背后实现](https://github.com/mqyqingfeng/Blog/issues/319)
 
+### React 18 版本 新特性专辑
+1. axxx
+
+## canvas 系列
+1. 基本的canvas Api 熟悉
 ## 项目开发
 
 1. [聊聊 npm 的语义化版本（Semver）](https://github.com/mqyqingfeng/Blog/issues/312)
 
-
-## 软技能
-1. [人生低谷时，如何快速调整、重回正轨？](https://github.com/mqyqingfeng/Blog/issues/294)
-2. [怎么平衡工作与生活？](https://github.com/mqyqingfeng/Blog/issues/298)
-3. [如何在工作中打造影响力，带动同事？](https://github.com/mqyqingfeng/Blog/issues/306)
-4. [如何学习更有计划性、提升更稳更快？](https://github.com/mqyqingfeng/Blog/issues/308)
-5. [过程比结果重要吗？](https://github.com/mqyqingfeng/Blog/issues/309)
 
 ## TypeScript4 官方文档翻译
 
@@ -45,13 +43,6 @@
 ## 浏览器系列
 
 1. [浏览器系列之 Cookie 和 SameSite 属性](https://github.com/mqyqingfeng/Blog/issues/157)
-
-## 面试系列
-
-1. [淘系前端校招负责人元彦直播答疑文字实录](https://github.com/mqyqingfeng/Blog/issues/167)
-2. [业务前端的困境](https://github.com/mqyqingfeng/Blog/issues/172)
-3. [前端，社招，面淘宝，指南](https://github.com/mqyqingfeng/Blog/issues/198)
-4. [前端，校招，面淘宝，指南](https://github.com/mqyqingfeng/Blog/issues/200)
 
 ## 深入系列
 
@@ -126,6 +117,7 @@
 ## 注意
 
 深入系列文章部分是有先后顺序的，按照目录结构顺序阅读效果最好。
+部分文章是为了方便自己查看才复制记录的
 
 ## 勘误及提问
 

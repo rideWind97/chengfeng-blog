@@ -83,7 +83,7 @@ module.exports = async function () {
   const workflow = ref.split("/")[2];
   const mode = ['main', 'master'].includes(workflow) ? '生产环境' : ['dev', 'develop'].includes(workflow) ? '测试环境' : '其它环境'
   const project = repository.name;
-  // const commitInfoArr = commits.map((item, i) => [{ tag: "text", text: `${i+1}、${item.message}` }, { tag: "text", text: `修改文件：${item.modified}` }])
+  const commitInfoArr = commits.map((item, i) => [{ tag: "text", text: `${i+1}、${item.message}` }, { tag: "text", text: `修改文件：${item.modified}` }])
 
   // const msg = {
   //   msg_type: "post",

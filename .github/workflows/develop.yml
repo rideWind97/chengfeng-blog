@@ -1,9 +1,9 @@
-name: develop
+name: main
 
 on:
   push:
     branches:
-      - develop
+      - main
 
 jobs:
   build:
@@ -23,7 +23,7 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/develop'
+    if: github.ref == 'refs/heads/main'
 
     steps:
       - name: Invoke deployment hook

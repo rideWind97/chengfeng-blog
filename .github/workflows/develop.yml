@@ -26,3 +26,4 @@ jobs:
         env:
           webhook_url: https://gmzfkx6b99.hk.aircode.run/deploy
           webhook_secret: ${{ secrets.WEBHOOK_SECRET }}
+          data: '{ "project": "博客项目", "env" : "生产环境" }'

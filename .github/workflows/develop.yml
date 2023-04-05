@@ -14,16 +14,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-  # deploy:
-  #   name: Deploy
-  #   needs: build
-  #   runs-on: ubuntu-latest
-  #   if: github.ref == 'refs/heads/main'
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
 
-  #   steps:
-  #     - name: Invoke deployment hook
-  #       uses: distributhor/workflow-webhook@v2
-  #       env:
-  #         webhook_url: https://gmzfkx6b99.hk.aircode.run/deploy
-  #         webhook_secret: ${{ secrets.WEBHOOK_SECRET }}
-  #         data: '{ "project": "博客项目", "env" : "生产环境" }'
+    steps:
+      - name: Invoke deployment hook
+        uses: distributhor/workflow-webhook@v2
+        env:
+          webhook_url: https://gmzfkx6b99.hk.aircode.run/deploy
+          webhook_secret: ${{ secrets.WEBHOOK_SECRET }}
+          data: '{ "project": "博客项目", "env" : "生产环境" }'

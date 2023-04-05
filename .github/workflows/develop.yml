@@ -3,21 +3,32 @@ name: develop
 on:
   push:
     branches:
-      - main
+      - develop
 
 jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
 
   deploy:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/develop'
 
     steps:
-
       - name: Invoke deployment hook
         uses: distributhor/workflow-webhook@v2
         env:
           webhook_url: https://gmzfkx6b99.hk.aircode.run/deploy
           webhook_secret: ''
-          data: '{ "storehouse": "chengfeng-blog" }'
+          data: '{ "store": "chengcheng-blog", "drink" : "beer" }'
